@@ -6,7 +6,7 @@ const reviewRoutes = require('./routes/reviewRoutes');
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-mongoose.connect('mongodb+srv://keeratjagga101:jaggaji2003@cluster0.sfpdl5c.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://harshitsharma4672:harshit@cluster0.ugbvbra.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
